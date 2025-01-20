@@ -1,0 +1,305 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "600722cb-e144-41e0-9e3a-1727f7d4a558")
+	(paper "A3")
+	(title_block
+		(date "2025-01-19")
+	)
+	(lib_symbols)
+	(sheet
+		(at 30.48 57.15)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6100ecdc-00d8-4b91-9ad7-3807690091d6")
+		(property "Sheetname" "BA, BUS MUX"
+			(at 30.48 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BA, BUS MUX.kicad_sch"
+			(at 30.48 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 39.37)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a")
+		(property "Sheetname" "TRAP VECTORS"
+			(at 30.48 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trap_vectors.kicad_sch"
+			(at 30.48 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 66.04)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71cc2db0-b51c-477e-b650-adef46ff310a")
+		(property "Sheetname" "BUS REGISTERS"
+			(at 30.48 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BUS REGISTERS.kicad_sch"
+			(at 30.48 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 83.82)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7500a768-2741-4e56-adc5-adefb127001a")
+		(property "Sheetname" "ALU, SHIFTER, PCA, PCB"
+			(at 30.48 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ALU, SHIFTER, PCA, PCB.kicad_sch"
+			(at 30.48 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 48.26)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "adbba5d4-4751-44a5-aea4-2afb149c9e34")
+		(property "Sheetname" "BA, BUS, ADDR"
+			(at 30.48 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BA,BUS,ADDR.kicad_sch"
+			(at 30.48 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 95.25)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb325e18-08c9-4f30-9fbd-a7339c03bc5d")
+		(property "Sheetname" "ALU, SHIFTER, PCA, PCB - PAGE 2"
+			(at 30.48 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ALU, SHIFTER, PCA, PCB - PAGE 2.kicad_sch"
+			(at 30.48 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30.48 74.93)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec953ce2-fccd-40d9-b5fd-352b3ab7c47e")
+		(property "Sheetname" "BUS REG, BA MUX"
+			(at 30.48 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BUS REG, BA MUX.kicad_sch"
+			(at 30.48 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0"
+					(page "6")
+				)
+			)
+		)
+	)
+)

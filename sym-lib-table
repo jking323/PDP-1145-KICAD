@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "PDP 11 45-altium-import")(type "KiCad")(uri "${KIPRJMOD}/PDP 11 45-altium-import.kicad_sym")(options "")(descr ""))
+)

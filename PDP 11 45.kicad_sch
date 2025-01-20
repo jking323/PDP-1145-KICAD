@@ -1,0 +1,62 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "58603c86-7bd5-4ba1-ab8f-a8884092425e")
+	(paper "A3")
+	(title_block
+		(title "DATAPATHS")
+		(date "2025-01-19")
+		(rev "1")
+		(company "King Technologies")
+	)
+	(lib_symbols)
+	(sheet
+		(at 59.69 69.85)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "27a40447-fb19-4009-836c-b60a8780a7c0")
+		(property "Sheetname" "Data Paths"
+			(at 59.69 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Data Paths.kicad_sch"
+			(at 59.69 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
