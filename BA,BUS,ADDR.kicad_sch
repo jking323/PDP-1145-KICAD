@@ -4629,22 +4629,22 @@
 	)
 	(global_label "DAPC BMX11 H"
 		(shape passive)
-		(at 330.084 55.88 180)
+		(at 308.61 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3eed7978-ca66-41ae-898e-9b18eac5ce80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.6959 55.88 0)
+			(at 324.9981 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4671,22 +4671,22 @@
 	)
 	(global_label "DAPC BMX08 H"
 		(shape passive)
-		(at 237.374 63.5 180)
+		(at 215.9 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "40ef7f65-b58d-46f1-b200-2b145f53c30c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.9859 63.5 0)
+			(at 232.2881 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5280,22 +5280,22 @@
 	)
 	(global_label "DAPC BMX09 H"
 		(shape passive)
-		(at 237.374 55.88 180)
+		(at 215.9 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "971d7d2c-df2c-481b-94e3-7ea9991244a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.9859 55.88 0)
+			(at 232.2881 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5322,43 +5322,43 @@
 	)
 	(global_label "DAPC BMX10 H"
 		(shape passive)
-		(at 330.2 63.5 180)
+		(at 308.61 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ac9f40c8-5860-4e07-92c5-7faf0e65eb55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.8119 63.5 0)
+			(at 324.9981 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "DAPC AMX11 H"
 		(shape passive)
-		(at 330.21 132.08 180)
+		(at 308.61 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ae2909a0-c8e2-47f2-a2e5-3e85e18e400a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.0033 132.08 0)
+			(at 324.8167 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5467,24 +5467,24 @@
 			)
 		)
 	)
-	(global_label "DAPC AMC10 H"
+	(global_label "DAPC AMX10 H"
 		(shape passive)
-		(at 330.084 139.7 180)
+		(at 308.61 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c695cb9d-615d-438b-9472-6eb8066f80bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.8168 139.7 0)
+			(at 324.8167 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)

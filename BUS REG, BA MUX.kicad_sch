@@ -1470,6 +1470,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 104.14) (xy 146.05 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b00d89-874e-45ae-9c79-cbbd8f3e1646")
+	)
+	(wire
+		(pts
 			(xy 132.08 31.75) (xy 127 31.75)
 		)
 		(stroke
@@ -1510,13 +1520,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.36 54.61) (xy 191.77 54.61)
+			(xy 148.59 162.56) (xy 146.05 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06d32916-1cb3-49d5-8fbe-0bcb5fa39041")
+		(uuid "073498d2-6faf-42a9-bc5a-214f3710d5bb")
 	)
 	(wire
 		(pts
@@ -1820,16 +1830,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 160.02) (xy 146.05 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a70fdfa-fbd2-4e7e-b82f-f4cc7c454f13")
-	)
-	(wire
-		(pts
 			(xy 146.05 116.84) (xy 153.67 116.84)
 		)
 		(stroke
@@ -2050,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 54.61) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4211e052-ddea-4ced-963a-188471e13724")
+	)
+	(wire
+		(pts
 			(xy 104.14 160.02) (xy 113.03 160.02)
 		)
 		(stroke
@@ -2090,7 +2100,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.561 49.53) (xy 194.31 49.53)
+			(xy 189.23 49.53) (xy 194.31 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2790,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.561 59.69) (xy 194.31 59.69)
+			(xy 187.96 59.69) (xy 194.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2870,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.804 52.07) (xy 193.04 52.07)
+			(xy 185.42 52.07) (xy 193.04 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3250,6 +3260,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 111.76) (xy 146.05 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b394ccd4-eba2-4b1a-b88f-44fd94ab6211")
+	)
+	(wire
+		(pts
 			(xy 187.96 116.84) (xy 187.96 119.38)
 		)
 		(stroke
@@ -3267,16 +3287,6 @@
 			(type default)
 		)
 		(uuid "b4dce24e-8e9e-4976-b87e-ef65a146e136")
-	)
-	(wire
-		(pts
-			(xy 146.05 101.6) (xy 146.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b56662a7-77a8-4991-93a3-713c3f94f5cb")
 	)
 	(wire
 		(pts
@@ -3377,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "c3afe035-7949-4823-a232-cf0c9560d4b5")
+	)
+	(wire
+		(pts
+			(xy 148.59 154.94) (xy 146.05 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c406a68b-3135-46b8-934f-1714adf2e940")
 	)
 	(wire
 		(pts
@@ -3820,16 +3840,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 151.13) (xy 146.05 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca43214-5d0e-4d2e-a1dc-89a19fca4568")
-	)
-	(wire
-		(pts
 			(xy 113.03 111.76) (xy 107.95 111.76)
 		)
 		(stroke
@@ -4213,7 +4223,7 @@
 	)
 	(global_label "GRAD SR03 H"
 		(shape passive)
-		(at 185.804 52.07 180)
+		(at 185.42 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4223,7 +4233,7 @@
 		)
 		(uuid "0a849b67-0bf3-4932-99ce-2fa3351b0528")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8673 52.07 0)
+			(at 170.4833 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4297,43 +4307,43 @@
 	)
 	(global_label "DAPB BMX04 H"
 		(shape passive)
-		(at 330.084 54.61 180)
+		(at 308.61 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0dfb9c3b-a9a1-43a7-a78f-18f4dbf06f50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.6959 54.61 0)
+			(at 324.9981 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "DAPB BNX00 H"
 		(shape passive)
-		(at 165.871 52.07 180)
+		(at 144.78 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "0e5f82b3-709d-410d-b456-a9adc73c1b08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6038 52.07 0)
+			(at 161.0472 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4379,9 +4389,9 @@
 			)
 		)
 	)
-	(global_label "DAPB BAMX 00 H"
+	(global_label "DAPB BAMX00 H"
 		(shape passive)
-		(at 146.05 160.02 0)
+		(at 148.59 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4391,7 +4401,7 @@
 		)
 		(uuid "1cff9175-7be1-45b3-8a90-8856e2bc9186")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.4943 160.02 0)
+			(at 166.0667 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,9 +4410,9 @@
 			)
 		)
 	)
-	(global_label "DAPE K1MX 02 H"
+	(global_label "DAPE K1MX02 H"
 		(shape passive)
-		(at 189.561 59.69 180)
+		(at 187.96 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4412,7 +4422,7 @@
 		)
 		(uuid "207fbf0f-a51b-4e5c-9c00-22ae2cf2e5b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.1168 59.69 0)
+			(at 170.4834 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,22 +4433,22 @@
 	)
 	(global_label "DAPB BNX01 H"
 		(shape passive)
-		(at 165.871 44.45 180)
+		(at 144.78 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "213cf907-3708-4b99-8911-a37a995cc93f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.6038 44.45 0)
+			(at 161.0472 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4549,26 +4559,26 @@
 	)
 	(global_label "DAPB BAMX04 H"
 		(shape passive)
-		(at 334.28 162.56 180)
+		(at 311.15 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "37ce87f5-95de-46cb-9b4a-22a75f728ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.8033 162.56 0)
+			(at 328.6267 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "DAPE K1MX 05 H"
+	(global_label "DAPE K1MX05 H"
 		(shape passive)
 		(at 270.841 49.53 180)
 		(fields_autoplaced yes)
@@ -4580,7 +4590,7 @@
 		)
 		(uuid "3a28f2aa-7340-4a6e-8de5-ae5f4abca365")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.3968 49.53 0)
+			(at 253.3644 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,22 +4601,22 @@
 	)
 	(global_label "DAPB BAMX05 H"
 		(shape passive)
-		(at 334.28 154.94 180)
+		(at 311.15 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3bd67d07-df72-41e7-8b2e-f3a11db64b3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.8033 154.94 0)
+			(at 328.6267 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4652,7 +4662,7 @@
 			)
 		)
 	)
-	(global_label "DAPD K1MX 01 H"
+	(global_label "DAPD K1MX01 H"
 		(shape passive)
 		(at 98.364 46.99 180)
 		(fields_autoplaced yes)
@@ -4664,7 +4674,7 @@
 		)
 		(uuid "408b652b-7ae7-4a01-b6a1-3c4d0ff2a449")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.7988 46.99 0)
+			(at 80.7664 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,24 +4725,24 @@
 			)
 		)
 	)
-	(global_label "DAPB AMX 00 H"
+	(global_label "DAPB AMX00 H"
 		(shape passive)
-		(at 168.223 111.76 180)
+		(at 148.59 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "48f67a2b-aaf1-4f79-8a44-4d3381efed7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.0487 111.76 0)
+			(at 164.7967 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4780,7 +4790,7 @@
 	)
 	(global_label "DAPB BAMX01 H"
 		(shape passive)
-		(at 146.05 151.13 0)
+		(at 148.59 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4790,7 +4800,7 @@
 		)
 		(uuid "541b6940-ca31-4469-8a47-e7fb71b86097")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.5267 151.13 0)
+			(at 166.0667 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4935,7 @@
 			)
 		)
 	)
-	(global_label "DAPE K1MX 04 H"
+	(global_label "DAPE K1MX04 H"
 		(shape passive)
 		(at 270.841 59.69 180)
 		(fields_autoplaced yes)
@@ -4937,7 +4947,7 @@
 		)
 		(uuid "81025558-a785-4662-858a-7d951c3e46f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.3968 59.69 0)
+			(at 253.3644 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,22 +5042,22 @@
 	)
 	(global_label "DAPB BMX05 H"
 		(shape passive)
-		(at 330.084 46.99 180)
+		(at 308.61 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "92b84964-c5cc-4511-ab1d-a46c65d697c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 313.6959 46.99 0)
+			(at 324.9981 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5114,9 +5124,9 @@
 			)
 		)
 	)
-	(global_label "DAPA K0MX 02 H"
+	(global_label "DAPA K0MX02 H"
 		(shape passive)
-		(at 189.817 54.61 180)
+		(at 187.96 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5126,7 +5136,7 @@
 		)
 		(uuid "a285e1ac-b4b5-461c-9406-61b13793241c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4332 54.61 0)
+			(at 170.5438 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5198,7 +5208,7 @@
 			)
 		)
 	)
-	(global_label "DAPE BMXS1 LOB L"
+	(global_label "DAPB BMXS1 LOB L"
 		(shape passive)
 		(at 318.77 80.01 0)
 		(fields_autoplaced yes)
@@ -5210,7 +5220,7 @@
 		)
 		(uuid "b94f325c-1b95-4082-8175-a48f7d608a78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.3309 80.01 0)
+			(at 339.4519 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,9 +5292,9 @@
 			)
 		)
 	)
-	(global_label "DAPE K1MX 03 H"
+	(global_label "DAPE K1MX03 H"
 		(shape passive)
-		(at 189.561 49.53 180)
+		(at 189.23 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5294,7 +5304,7 @@
 		)
 		(uuid "cf6f3625-f9ad-48e1-b684-823e7ca3d149")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.1168 49.53 0)
+			(at 171.7534 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5313,7 @@
 			)
 		)
 	)
-	(global_label "DAPD K0MX 00 H"
+	(global_label "DAPD K0MX00 H"
 		(shape passive)
 		(at 98.364 54.61 180)
 		(fields_autoplaced yes)
@@ -5315,7 +5325,7 @@
 		)
 		(uuid "da861617-41d6-4844-b69d-627491c15635")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.7988 54.61 0)
+			(at 80.7664 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,9 +5439,9 @@
 			)
 		)
 	)
-	(global_label "DAPD K0MX 01 H"
+	(global_label "DAPD K0MX01 H"
 		(shape passive)
-		(at 98.364 44.45 180)
+		(at 97.79 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5441,7 +5451,7 @@
 		)
 		(uuid "e3f1097d-8548-4129-82fd-a4f4467b6b4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.7988 44.45 0)
+			(at 80.1924 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +5504,7 @@
 	)
 	(global_label "DAPB AMX01 H"
 		(shape passive)
-		(at 146.05 101.6 0)
+		(at 148.59 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5504,7 +5514,7 @@
 		)
 		(uuid "f3173239-ed1c-4293-b25b-d1493cc1a2ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.2567 101.6 0)
+			(at 164.7967 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
