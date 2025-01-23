@@ -10,6 +10,167 @@
 		(rev "1")
 	)
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PDP 11 45-altium-import:+5_BAR"
 			(power)
 			(exclude_from_sim no)
@@ -2794,6 +2955,12 @@
 		(uuid "3307b380-1ef5-419e-ab3b-ce231685cb3a")
 	)
 	(junction
+		(at 334.01 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "398e91bb-bc71-4282-869b-2dc1ae193918")
+	)
+	(junction
 		(at 256.54 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,6 +2977,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40730129-a5fa-43cb-922e-a1b47f028f26")
+	)
+	(junction
+		(at 233.68 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43e0974f-3d6e-46f5-b561-71db90386c64")
 	)
 	(junction
 		(at 82.55 213.36)
@@ -2944,6 +3117,12 @@
 		(uuid "96a4f512-825c-450e-8fc5-5809669d8d6c")
 	)
 	(junction
+		(at 229.87 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d9c66b-0767-4267-a7a7-27d44ea39831")
+	)
+	(junction
 		(at 210.82 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3022,6 +3201,12 @@
 		(uuid "e688d7b8-bb3f-45e3-8de9-70ec23415519")
 	)
 	(junction
+		(at 334.01 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef72da8a-7a1b-4a1c-b9c5-99d72fe80cb2")
+	)
+	(junction
 		(at 101.6 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3088,6 +3273,16 @@
 			(type default)
 		)
 		(uuid "0635bb18-8922-4de5-9217-3b022b26dca1")
+	)
+	(wire
+		(pts
+			(xy 334.01 137.16) (xy 339.09 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07694ba9-c027-416e-a5d3-3581f803c125")
 	)
 	(wire
 		(pts
@@ -3198,6 +3393,16 @@
 			(type default)
 		)
 		(uuid "1b8f5b4d-9c3e-4640-b281-a2f8e7850f1d")
+	)
+	(wire
+		(pts
+			(xy 328.93 137.16) (xy 334.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c88ab9c-1d5c-4c11-bd37-bef2484fbc28")
 	)
 	(wire
 		(pts
@@ -3388,6 +3593,16 @@
 			(type default)
 		)
 		(uuid "3be9f29c-8213-4915-9e58-251ae8bcbedf")
+	)
+	(wire
+		(pts
+			(xy 334.01 60.96) (xy 339.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c49027b-c42a-4196-ba10-b39469133321")
 	)
 	(wire
 		(pts
@@ -3651,13 +3866,23 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 60.96) (xy 228.6 49.53)
+			(xy 228.6 58.42) (xy 228.6 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "72d4a10b-35f1-41d5-9f73-33883ae5e53b")
+	)
+	(wire
+		(pts
+			(xy 233.68 58.42) (xy 238.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73457f92-ebf8-4441-ab74-a49c6cefc222")
 	)
 	(wire
 		(pts
@@ -3711,7 +3936,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 137.16) (xy 227.33 137.16)
+			(xy 237.49 137.16) (xy 229.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3758,16 +3983,6 @@
 			(type default)
 		)
 		(uuid "84ec8239-6f30-4ae2-b2a3-2c3972e7528d")
-	)
-	(wire
-		(pts
-			(xy 238.76 60.96) (xy 228.6 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c105d1-c6f5-452c-bbff-4a177998ac7e")
 	)
 	(wire
 		(pts
@@ -3938,6 +4153,16 @@
 			(type default)
 		)
 		(uuid "a356d9e8-2862-418f-b380-7755abc9d51b")
+	)
+	(wire
+		(pts
+			(xy 328.93 60.96) (xy 334.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5be9b86-5c9d-4de6-a3fe-3600af9f6d55")
 	)
 	(wire
 		(pts
@@ -4218,16 +4443,6 @@
 			(type default)
 		)
 		(uuid "cfe6c8a8-9bca-4ad4-9319-9c1775fccd8b")
-	)
-	(wire
-		(pts
-			(xy 339.09 137.16) (xy 328.93 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d03ef68a-f7c5-4d7c-b3dd-4898f74b19b2")
 	)
 	(wire
 		(pts
@@ -4631,13 +4846,23 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 60.96) (xy 328.93 60.96)
+			(xy 227.33 137.16) (xy 229.87 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fab233a9-dcd0-4da5-8782-e227e8683729")
+		(uuid "fa92d305-07db-4919-8cf2-3816ab75cfbf")
+	)
+	(wire
+		(pts
+			(xy 228.6 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf4cc40-89fc-46cd-a06a-3473f471434e")
 	)
 	(label "AK1"
 		(at 81.28 168.91 0)
@@ -4844,22 +5069,22 @@
 	)
 	(global_label "DAPE SV05 H"
 		(shape passive)
-		(at 144.781 76.2 180)
+		(at 125.73 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "127a43b5-fbfe-493d-a4e0-cfc5b6474174")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1467 76.2 0)
+			(at 140.3643 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4907,22 +5132,22 @@
 	)
 	(global_label "DAPE K1MX04 H"
 		(shape passive)
-		(at 251.218 34.29 180)
+		(at 228.6 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "19e4bcc4-10e4-4ad3-9fa4-19acb6f82eaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.7414 34.29 0)
+			(at 246.0766 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4949,22 +5174,22 @@
 	)
 	(global_label "DAPE TV03 H"
 		(shape passive)
-		(at 196.977 204.47 180)
+		(at 177.8 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1dca4dd1-832d-4034-a946-272d3d0488e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.5846 204.47 0)
+			(at 192.1924 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5012,22 +5237,22 @@
 	)
 	(global_label "DAPE SV07 H"
 		(shape passive)
-		(at 144.781 45.72 180)
+		(at 125.73 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "2a79eda0-4de8-4c23-8045-c95a7524857a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1467 45.72 0)
+			(at 140.3643 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5054,43 +5279,43 @@
 	)
 	(global_label "DAPE SV04 H"
 		(shape passive)
-		(at 144.781 91.44 180)
+		(at 125.73 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "35e07dff-3a16-4bd8-985d-41ec95a5b8e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1467 91.44 0)
+			(at 140.3643 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "DAPE TV04 H"
 		(shape passive)
-		(at 157.607 177.8 180)
+		(at 138.43 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "38648a36-303f-4b3d-8978-6d62e3bf3798")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.2146 177.8 0)
+			(at 152.8224 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5138,22 +5363,22 @@
 	)
 	(global_label "DAPE TV05*07 H"
 		(shape passive)
-		(at 161.047 166.37 180)
+		(at 138.43 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "42d11fa1-21df-4a46-a09c-831f38b2e620")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.268 166.37 0)
+			(at 156.209 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5264,85 +5489,85 @@
 	)
 	(global_label "DAPE K1MX06 H"
 		(shape passive)
-		(at 351.548 110.49 180)
+		(at 328.93 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5d7902e4-f2b1-4e8d-a811-6a7c5d28b8b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.0714 110.49 0)
+			(at 346.4066 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "DAPE K1MX03 H"
 		(shape passive)
-		(at 251.218 41.91 180)
+		(at 228.6 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5e33a5c0-ae77-42b7-9057-4218b9014561")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.7414 41.91 0)
+			(at 246.0766 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "DAPE K1MX07 H"
 		(shape passive)
-		(at 351.548 41.91 180)
+		(at 328.93 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5eb10153-f112-469d-a8c4-969bf088c02b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.0714 41.91 0)
+			(at 346.4066 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "DAPE SV02 H"
 		(shape passive)
-		(at 144.781 121.92 180)
+		(at 125.73 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "61391da4-ed72-4da0-a471-62b960cd7946")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1467 121.92 0)
+			(at 140.3643 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5369,22 +5594,22 @@
 	)
 	(global_label "DAPE SV03 H"
 		(shape passive)
-		(at 144.781 106.68 180)
+		(at 125.73 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6abb111a-9f99-481a-b21f-cf604a4d71e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1467 106.68 0)
+			(at 140.3643 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5516,22 +5741,22 @@
 	)
 	(global_label "DAPE SV06 H"
 		(shape passive)
-		(at 144.781 60.96 180)
+		(at 125.73 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a3331d59-9ac1-4fe8-a83d-7993d2aa3ee7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1467 60.96 0)
+			(at 140.3643 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5663,43 +5888,43 @@
 	)
 	(global_label "DAPE K1MX05 H"
 		(shape passive)
-		(at 351.548 118.11 180)
+		(at 328.93 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c608b141-e8e8-4840-a010-817cf2c4d724")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.0714 118.11 0)
+			(at 346.4066 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "DAPE K1EX H"
 		(shape passive)
-		(at 348.616 34.29 180)
+		(at 328.93 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c9ea268f-1d82-43e3-8b84-4075f5f620cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 333.8608 34.29 0)
+			(at 343.6852 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5810,22 +6035,22 @@
 	)
 	(global_label "DAPE K1MX01 H"
 		(shape passive)
-		(at 249.948 118.11 180)
+		(at 227.33 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ecb03deb-d7c0-44be-bc12-9baf49463f82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.4714 118.11 0)
+			(at 244.8066 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -5915,22 +6140,22 @@
 	)
 	(global_label "DAPE K1MX02 H"
 		(shape passive)
-		(at 249.948 110.49 180)
+		(at 227.33 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fbdb0de7-adda-4786-a2f6-3cb10f186b69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.4714 110.49 0)
+			(at 244.8066 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6055,6 +6280,85 @@
 				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0/680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a"
 					(reference "E11")
 					(unit 8)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 334.01 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0526aa5e-6cfc-4883-b71f-f362a89aa3b5")
+		(property "Reference" "C1"
+			(at 337.82 138.8109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8uF"
+			(at 337.82 141.3509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
+			(at 334.9752 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/420/ce_ntd_e_2020-3439999.pdf"
+			(at 334.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 334.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "KTD101B685M55A0T00"
+			(at 334.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b135a9be-ea2d-4af5-97f5-a9e50500f373")
+		)
+		(pin "2"
+			(uuid "48683e28-e63f-4f69-8399-0accbb5a579c")
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0/680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a"
+					(reference "C1")
+					(unit 1)
 				)
 			)
 		)
@@ -6593,7 +6897,7 @@
 	)
 	(symbol
 		(lib_id "PDP 11 45-altium-import:+5_BAR")
-		(at 238.76 60.96 180)
+		(at 238.76 58.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6601,7 +6905,7 @@
 		(dnp no)
 		(uuid "324b5df5-186a-4ec0-a57e-963de05392d0")
 		(property "Reference" "#PWR011"
-			(at 238.76 60.96 0)
+			(at 238.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6914,7 @@
 			)
 		)
 		(property "Value" "+5"
-			(at 238.76 57.15 0)
+			(at 238.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6922,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 60.96 0)
+			(at 238.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 60.96 0)
+			(at 238.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +6938,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 60.96 0)
+			(at 238.76 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8797,6 +9101,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 334.01 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9131adf2-8a82-4978-93aa-32bfedbb937f")
+		(property "Reference" "C2"
+			(at 337.82 62.6109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8uF"
+			(at 337.82 65.1509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
+			(at 334.9752 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/420/ce_ntd_e_2020-3439999.pdf"
+			(at 334.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 334.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "KTD101B685M55A0T00"
+			(at 334.01 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1a277e4-54b7-4728-acc2-77a1648c2f7b")
+		)
+		(pin "2"
+			(uuid "bc05f6a7-c38f-4491-ad89-8ca7c8230e1f")
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0/680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PDP 11 45-altium-import:GND_POWER_GROUND")
 		(at 300.99 21.59 0)
 		(unit 1)
@@ -9389,6 +9772,85 @@
 			(project "PDP 11 45"
 				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0/680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 229.87 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9df75c8-e742-40b1-bc11-346684737aad")
+		(property "Reference" "C?"
+			(at 233.68 138.8109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8uF"
+			(at 233.68 141.3509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
+			(at 230.8352 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/420/ce_ntd_e_2020-3439999.pdf"
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "KTD101B685M55A0T00"
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf03f009-0005-4d4f-a4df-8edd2f1254df")
+		)
+		(pin "2"
+			(uuid "7fbe2f83-79fb-4076-8421-92066e9b5224")
+		)
+		(instances
+			(project ""
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0/680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a"
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -10489,6 +10951,85 @@
 				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0/680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a"
 					(reference "E18")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 233.68 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3253c90-6bbd-4ccb-b13a-ce22215c3ae4")
+		(property "Reference" "C3"
+			(at 237.49 60.0709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.8uF"
+			(at 237.49 62.6109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.5mm_W6.5mm_P5.00mm"
+			(at 234.6452 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/420/ce_ntd_e_2020-3439999.pdf"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "KTD101B685M55A0T00"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c08a17a-cb8b-4cca-9e6e-cf94f8ff857d")
+		)
+		(pin "2"
+			(uuid "ec8ecc92-0189-47d5-89ae-d3f76d352e3f")
+		)
+		(instances
+			(project "PDP 11 45"
+				(path "/58603c86-7bd5-4ba1-ab8f-a8884092425e/27a40447-fb19-4009-836c-b60a8780a7c0/680a5c5f-ca37-4e5c-9cf1-08c2cb49aa1a"
+					(reference "C3")
+					(unit 1)
 				)
 			)
 		)
